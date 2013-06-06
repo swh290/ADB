@@ -1,0 +1,25 @@
+ - Add site 1
+ - Add site 2
+ - Add site 3
+ - Add site 4
+ - Add site 5
+ - Add site 6
+ - Add site 7
+ - Add site 8
+ - Add site 9
+ - Add site 10
+ - Transaction T1 begins
+ - Transaction T2 begins
+ - Processing R(T2,X1)
+ - X1 is 10
+ - Processing R(T2,X2)
+ - X2 is 20
+ - Processing W(T1,X3,33)
+ - Processing commit(t1)
+ - Transaction T1 commited
+ - Transaction T1 removed
+ - Processing R(T2,X3)
+ - X3 is 30
+ - Processing commit(t2)
+ - Transaction T2 commited
+ - Transaction T2 removed

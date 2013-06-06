@@ -1,0 +1,34 @@
+ - Add site 1
+ - Add site 2
+ - Add site 3
+ - Add site 4
+ - Add site 5
+ - Add site 6
+ - Add site 7
+ - Add site 8
+ - Add site 9
+ - Add site 10
+ - Transaction T3 begins
+ - Transaction T1 begins
+ - Transaction T2 begins
+ - Processing W(T3,X2,22)
+ - Processing W(T2,X4,44)
+ - Processing R(T3,X4)
+ - target site 1
+ - X4 is lock by t2
+ - Transaction T3 waits
+ - Processing commit(t2)
+ - Transaction T2 commited
+ - Transaction T2 removed
+ - Processing R(T3,X4)
+ - target site 1
+ - X4 is 44
+ - Processing commit(t3)
+ - Transaction T3 commited
+ - Transaction T3 removed
+ - Processing R(T1,X2)
+ - target site 1
+ - X2 is 22
+ - Processing commit(t1)
+ - Transaction T1 commited
+ - Transaction T1 removed

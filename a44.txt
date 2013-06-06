@@ -1,0 +1,553 @@
+ - Add site 1
+ - Add site 2
+ - Add site 3
+ - Add site 4
+ - Add site 5
+ - Add site 6
+ - Add site 7
+ - Add site 8
+ - Add site 9
+ - Add site 10
+ - Transaction T1 begins
+ - Transaction T2 begins
+ - Processing W(T1,X6,66)
+ - Processing fail(2)
+ - t1 aborts due to site 2 fail
+ - Processing abort(t1)
+ - Transaction T1 removed
+ - Processing W(T2,X8,88)
+ - Processing R(T2,X3)
+ - target site 4
+ - X3 is 30
+ - Processing dump()
+ - Site1 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 80
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site2 This site is down.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 80
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X1 = 10
+X11 = 110
+
+ - Site3 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 80
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site4 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 80
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X3 = 30
+X13 = 130
+
+ - Site5 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 80
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site6 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 80
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X5 = 50
+X15 = 150
+
+ - Site7 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 80
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site8 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 80
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X7 = 70
+X17 = 170
+
+ - Site9 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 80
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site10 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 80
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X9 = 90
+X19 = 190
+
+ - Processing R(T1, X5)
+ - Transaction T1 not found
+ - Processing commit(t2)
+ - Transaction T2 commited
+ - Transaction T2 removed
+ - Processing dump()
+ - Site1 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site2 This site is down.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 80
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X1 = 10
+X11 = 110
+
+ - Site3 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site4 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X3 = 30
+X13 = 130
+
+ - Site5 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site6 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X5 = 50
+X15 = 150
+
+ - Site7 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site8 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X7 = 70
+X17 = 170
+
+ - Site9 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site10 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X9 = 90
+X19 = 190
+
+ - Processing recover(2)
+ - Processing dump()
+ - Site1 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site2 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X1 = 10
+X11 = 110
+
+ - Site3 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site4 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X3 = 30
+X13 = 130
+
+ - Site5 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site6 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X5 = 50
+X15 = 150
+
+ - Site7 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site8 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X7 = 70
+X17 = 170
+
+ - Site9 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site10 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X9 = 90
+X19 = 190
+
+ - Processing commit(t1)
+ - Transaction T1 not found
+ - Processing dump()
+ - Site1 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site2 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X1 = 10
+X11 = 110
+
+ - Site3 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site4 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X3 = 30
+X13 = 130
+
+ - Site5 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site6 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X5 = 50
+X15 = 150
+
+ - Site7 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site8 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X7 = 70
+X17 = 170
+
+ - Site9 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+
+ - Site10 This site is up.
+X2 = 20
+X4 = 40
+X6 = 60
+X8 = 88
+X10 = 100
+X12 = 120
+X14 = 140
+X16 = 160
+X18 = 180
+X20 = 200
+X9 = 90
+X19 = 190
+
